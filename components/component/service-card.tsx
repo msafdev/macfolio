@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { LucideIcon, Zap } from "lucide-react";
 import React from "react";
 
-const FeatureCard = ({
+const ServiceCard = ({
   className,
   icon: Icon = Zap,
   title = "Optimized for speed and SEO",
@@ -35,4 +35,4 @@ const FeatureCard = ({
   );
 };
 
-export default FeatureCard;
+export default ServiceCard;

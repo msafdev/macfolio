@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureCard from "../component/feature-card";
+import ServiceCard from "../component/service-card";
 import Title from "../ui/title";
 import { Globe, Headset, Palette, Phone, TrendingUp, Zap } from "lucide-react";
 
@@ -52,7 +52,7 @@ const ServiceSection = () => {
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
         {Services.map((feature, index) => (
-          <FeatureCard key={index} {...feature} />
+          <ServiceCard key={index} {...feature} />
         ))}
       </div>
     </section>
