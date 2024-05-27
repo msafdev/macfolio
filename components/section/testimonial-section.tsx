@@ -79,21 +79,21 @@ const TestimonialSection = () => {
         subtitle="What people say about me"
         className="mb-6 md:mb-12"
       />
-      <div className="grid md:grid-cols-3 grid-rows-1 w-full gap-6 relative">
+      <div className="grid md:grid-cols-3 grid-rows-1 w-full gap-4 md:gap-6 relative">
         {/* 1-3 */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4 md:gap-6">
           {Testimonials.slice(0, 3).map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}
         </div>
         {/* 4-6 */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4 md:gap-6">
           {Testimonials.slice(3, 6).map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}
         </div>
         {/* 7-9 */}
-        <div className="flex-col gap-6 hidden md:flex">
+        <div className="flex-col gap-4 md:gap-6 hidden md:flex">
           {Testimonials.slice(6, 9).map((testimonial, index) => (
             <TestimonialCard key={index} {...testimonial} />
           ))}

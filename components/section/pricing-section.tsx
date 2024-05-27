@@ -59,12 +59,12 @@ const PricingSection = () => {
         className="mb-6 md:mb-12"
       />
       {/* Cards */}
-      <div className="flex items-center w-full gap-6 flex-wrap">
+      <div className="flex items-center w-full gap-4 md:gap-6 flex-wrap">
         {Prices.map((price, index) => (
           <PricingCard key={index} {...price} variant={price.variant} />
         ))}
-        <div className="flex flex-col gap-y-6 w-auto grow">
-          <div className="flex flex-col gap-y-6 w-auto flex-auto h-auto grow bg-white dark:bg-muted rounded-xl border-2 p-4">
+        <div className="flex flex-col gap-y-4 md:gap-y-6 w-auto grow">
+          <div className="flex flex-col gap-y-4 md:gap-y-6 w-auto flex-auto h-auto grow bg-white dark:bg-muted rounded-xl border-2 p-4">
             <div className="flex gap-x-3 items-center">
               <div className="flex h-fit w-fit bg-primary text-primary-foreground p-2 border rounded-lg">
                 <Sparkle className="w-5 h-5" />
@@ -108,7 +108,7 @@ const PricingSection = () => {
               </Button>
             </div>
           </div>
-          <div className="flex flex-col gap-y-6 w-auto flex-auto h-auto grow bg-white dark:bg-muted rounded-xl border-2 p-4">
+          <div className="flex flex-col gap-y-4 md:gap-y-6 w-auto flex-auto h-auto grow bg-white dark:bg-muted rounded-xl border-2 p-4">
             <div className="flex gap-x-3 items-center">
               <div className="flex h-fit w-fit bg-primary text-primary-foreground p-2 border rounded-lg">
                 <Sparkles className="w-5 h-5" />
