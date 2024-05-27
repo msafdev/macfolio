@@ -16,7 +16,7 @@ const ServiceCard = ({
   return (
     <div
       className={cn(
-        `flex flex-col rounded-lg border-2 overflow-hidden w-full h-full shadow-sm`,
+        `flex flex-col rounded-lg border-2 overflow-hidden w-full h-fit shadow-sm`,
         className
       )}
     >
@@ -28,7 +28,7 @@ const ServiceCard = ({
           {title}
         </p>
       </div>
-      <p className="p-4 text-xs md:text-sm text-muted-foreground leading-tight h-full bg-white dark:bg-popover">
+      <p className="p-4 text-xs md:text-sm text-muted-foreground leading-tight h-fit bg-white dark:bg-popover">
         {description}
       </p>
     </div>

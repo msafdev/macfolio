@@ -50,7 +50,7 @@ const ServiceSection = () => {
         subtitle="Grow your business with me"
         className="mb-6 md:mb-12"
       />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 w-full">
         {Services.map((feature, index) => (
           <ServiceCard key={index} {...feature} />
         ))}
