@@ -16,7 +16,7 @@ const ServiceCard = ({
   return (
     <div
       className={cn(
-        `flex flex-col rounded-lg border-2 overflow-hidden w-full h-fit shadow-sm`,
+        `flex flex-col rounded-lg border-2 overflow-hidden w-full h-full shadow-sm`,
         className
       )}
     >

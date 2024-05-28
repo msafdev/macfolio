@@ -19,7 +19,12 @@ const Nav = () => {
     <header className="w-full border-b pad-x py-3 flex justify-center sticky top-0 bg-background z-10">
       <div className="flex items-center justify-between gap-x-8 max-w-4xl w-full">
         {/* Logo */}
-        <Profile />
+        <Profile
+          imageAlt="@msafdev"
+          imageUrl="https://github.com/msafdev.png"
+          name="Salman"
+          subtitle="Software Engineer"
+        />
         {/* Navigation */}
         <nav className="flex items-center gap-x-2 md:gap-x-8">
           <button className="md:hidden bg-muted hover:bg-secondary hover:text-secondary-foreground text-muted-foreground border rounded-lg p-1.5">

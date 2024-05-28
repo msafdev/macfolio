@@ -3,7 +3,7 @@
 import { ArrowDown } from "lucide-react";
 import React, { useState } from "react";
 
-const Faq = () => {
+const Faq = ({ question, answer }: { question: string; answer: string }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleOpen = () => {
@@ -17,7 +17,7 @@ const Faq = () => {
         className="flex items-center justify-between w-full px-5 py-4 gap-x-4 text-left border-b-2"
       >
         <p className="text-foreground font-medium text-sm md:text-base">
-          Lorem ipsum dolor sit amet?
+          {question}
         </p>
         <ArrowDown
           className={`w-5 h-5 transition-transform duration-500 ease-in-out ${
@@ -30,10 +30,7 @@ const Faq = () => {
           isOpen ? "grid-rows-[1fr] px-5 py-4" : "px-5 py-0 grid-rows-[0fr]"
         }`}
       >
-        <p className="text-muted-foreground overflow-hidden">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error fugiat
-          similique consequuntur commodi eligendi maxime.
-        </p>
+        <p className="text-muted-foreground overflow-hidden">{answer}</p>
       </div>
     </div>
   );

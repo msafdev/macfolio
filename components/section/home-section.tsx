@@ -1,6 +1,7 @@
 import React from "react";
 import Status from "../ui/status";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HomeSection = () => {
   return (
@@ -15,15 +16,23 @@ const HomeSection = () => {
           Creating unique websites and digital experiences
         </h1>
         <p className="text-sm md:text-base font-medium text-muted-foreground mb-6 md:mb-8">
-          With 5+ years of experience I'm currently making conversion-focused
-          and SEO-optimized websites to help businesses stand out from the
-          crowd. I also craft things in Framer and React, and I'm also a
-          computer science major.
+          With almost 2 years of experience, I've worked with startups and
+          companies to craft unique digital experiences. I am currently making
+          conversion-based and SEO optimized products to help businesses grow
+          and flourish. I mainly craft my magic using{" "}
+          <span className="text-semibold text-foreground">Next.js</span> and{" "}
+          <span className="text-semibold text-foreground">Supabase</span>.
         </p>
         <div className="flex items-center justify-center gap-x-4 gap-y-4 flex-wrap">
-          <Button className="border-2 py-1.5 h-fit">Explore more</Button>
-          <Button className="border-2 py-1.5 h-fit bg-white dark:bg-secondary" variant="secondary">
-            info@johndoe.com
+          <Button className="border-2 py-1.5 h-fit" id="about">
+            Explore more
+          </Button>
+          <Button
+            className="border-2 py-1.5 h-fit bg-white dark:bg-secondary"
+            variant="secondary"
+            email="salmanalfarisi261002@gmail.com"
+          >
+            Send me a message
           </Button>
         </div>
       </div>

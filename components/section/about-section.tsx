@@ -14,15 +14,15 @@ const AboutSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-1 w-full gap-y-8 gap-x-0 md:gap-x-8">
         <div className="col-span-2 flex flex-col">
           <p className="text-base md:text-base text-muted-foreground">
-            Hi! I'm John, a full-stuck developer and designer from Indonesia. I
-            try to craft unique and creative digital experiences.
+            Hi! I'm Salman, a full-stuck developer and designer from Indonesia.
+            I try to craft unique and creative digital experiences.
             <span className="h-6 block" />
             I've been programming for 2 years, it all started when covid-19
             struck and now I'm here. I've been working with various clients and
             companies to help them achieve their goals.
             <span className="h-6 block" />
             I always loved coding in general, but frontend development is my
-            piece of cake, alongside with design.
+            piece of cake, alongside with design and product development.
             <span className="h-6 block" />
             Today, I focus on crafting conversion-focused, SEO-optimized, and
             cool-looking websites for businesses and individuals, helping them

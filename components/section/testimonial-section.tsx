@@ -2,68 +2,135 @@ import React from "react";
 import Title from "../ui/title";
 import TestimonialCard from "../component/testimonial-card";
 
+const randomDescriptions = [
+  "is a highly skilled professional in the field of software engineering. Known for their problem-solving abilities and innovative solutions.",
+  "has made significant contributions to the tech industry with their expertise in developing efficient and scalable software systems.",
+  "is recognized for their commitment to excellence and their ability to lead successful projects from conception to completion.",
+  "brings a wealth of knowledge and experience to any team, with a track record of delivering high-quality software solutions.",
+  "is an exceptional engineer with a passion for technology and a dedication to continuous learning and improvement.",
+  "has a proven ability to work collaboratively in team environments, consistently achieving project goals and deadlines.",
+  "is a forward-thinking engineer who excels at finding creative solutions to complex problems.",
+  "is highly respected in the tech community for their technical skills and their ability to mentor and guide junior developers.",
+  "is known for their strong work ethic and their ability to handle multiple tasks efficiently.",
+  "has a deep understanding of modern software development practices and tools, making them an invaluable asset to any project.",
+];
+
 const Testimonials = [
   {
-    name: "John Doe",
-    title: "Software Engineer",
+    name: "Nadia Lovely",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Jane Doe",
-    title: "Software Engineer",
+    name: "Salman",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "John Doe",
-    title: "Software Engineer",
+    name: "Doan Carlos",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Joe Doe",
-    title: "Software Engineer",
+    name: "Aufal Marom",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit. Lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Joe Doe",
-    title: "Software Engineer",
+    name: "Raffi Ahmad",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit. Lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Joe Doe",
-    title: "Software Engineer",
+    name: "Josh Brolin",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit. Lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Joe Doe",
-    title: "Software Engineer",
+    name: "Daniel Andhika",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit. Lorem ipsum dolor sit amet. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "Jane Doe",
-    title: "Software Engineer",
+    name: "Pramudya Augustina",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
   {
-    name: "John Doe",
-    title: "Software Engineer",
+    name: "Krisna Wijaya",
+    subtitle: "Software Engineer",
+    imageUrl: "https://github.com/msafdev.png",
+    imageAlt: "Software Engineer",
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      ${
+        randomDescriptions[
+          Math.floor(Math.random() * randomDescriptions.length)
+        ]
+      }
     `,
   },
 ];

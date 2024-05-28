@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { ThemeProvider } from "@/components/component/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 
 import Nav from "@/components/component/nav";
 import Footer from "@/components/component/footer";
@@ -22,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`min-h-[100svh] min-w-64 ${inter.className}`}>
+      <body className={`min-h-[100svh] min-w-56 ${inter.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -31,6 +32,7 @@ export default function RootLayout({
         >
           <Nav />
           {children}
+          <Toaster />
           <Footer />
         </ThemeProvider>
       </body>
