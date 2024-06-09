@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/msaf-macintosh)](msaf-macintosh.vercel.app)
+[![License](https://img.shields.io/github/license/msafdev/macfolio)](https://github.com/msafdev/macfolio/blob/main/LICENSE.txt)
+[![Issues](https://img.shields.io/github/issues/msafdev/macfolio)](https://github.com/msafdev/macfolio/issues)
+[![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/macfolio?style=flat&color=yellow)](https://github.com/msafdev/macfolio/stargazers)
 
-## Getting Started
+## 🍎 Macfolio
 
-First, run the development server:
+![Image](https://raw.githubusercontent.com/msafdev/macfolio/main/public/cover.png)
+
+This is a portfolio template with a slight MacOS theme. You can use this template to create your own portfolio website.
+
+🔗 [macfolio](https://mac.msaf.tech)
+
+### 🛠️ Stack
+
+- Next.js
+- Tailwind CSS
+- Shacn-ui
+- Vercel
+
+### 🚀 Usage
+
+To use this template, install the dependencies and run the development server.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚦 To Do
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [x] Add CI/CD pipeline
+- [ ] Add feature/responsive-menu-bar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 📝 Contribute
 
-## Learn More
+If you want to contribute to this project, you can fork this repository and make a pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Don't forget to leave a ⭐️
