@@ -1,4 +1,4 @@
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/msaf-macintosh)](msaf-macintosh.vercel.app)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/msaf-macintosh)](https://msaf-macintosh.vercel.app)
 [![License](https://img.shields.io/github/license/msafdev/macfolio)](https://github.com/msafdev/macfolio/blob/main/LICENSE.txt)
 [![Issues](https://img.shields.io/github/issues/msafdev/macfolio)](https://github.com/msafdev/macfolio/issues)
 [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/macfolio?style=flat&color=yellow)](https://github.com/msafdev/macfolio/stargazers)
